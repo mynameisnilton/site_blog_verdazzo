@@ -1,0 +1,160 @@
+/* resete da pagina*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* inicio area das fonts*/
+header,
+section h2,
+section h3,
+form button{
+    font-family: 'Bungee', cursive;
+    font-weight:normal
+}
+
+body, input, textarea{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*  fim area das fonts*/
+
+/*inicio dos ajuste do cabeçalho*/
+
+header {
+    padding: 16px 0 ;
+    background-color: rgb(7, 105, 7);
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.container{
+   max-width: 1280px;
+   width: 100%;
+   margin: 0 auto;
+}
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.logo-list img {
+    height: 100px;
+    margin-top: 16px;
+}
+
+.logo-list li  {
+    display: inline;
+    
+}
+
+#more {
+    text-decoration: none;
+    display: block;
+    margin-top: 16px;
+    color:rgb(7, 105, 7);
+    
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px ;
+    color:rgb(7, 105, 7);
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.logo-palmeiras{
+    margin-right: 190px;
+    
+    
+}
+
+
+#main-trophy .container{
+    display: block;
+}
+
+#main-trophy .title li {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    
+}
+
+#address .container{
+    display: block;
+    font-weight: bolder;
+}
+
+#contact .container{
+    display: block;
+}
+
+.address-contact{
+    display: inline;
+}
+
+form input, 
+form button,
+form textarea {
+    display: block;
+    width: 350px;
+    margin-bottom: 8px;
+    padding: 8px;
+    
+}
+
+form button{
+    background-color: rgb(7, 105, 7) ;
+    color:#ecf0f1;
+    border: none;
+    cursor: pointer ;
+}
+
+form button:hover{
+    background-color: rgb(13, 143, 13) ;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+footer {
+    background-color: rgb(7, 105, 7);
+    color: #ecf0f1;
+    padding: 18px 0;
+    text-align: center;
+
+}
