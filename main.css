@@ -158,3 +158,22 @@ footer {
     text-align: center;
 
 }
+
+
+@media (min-width: 320px) and (max-width: 1288px){
+    .container {padding: 16px;}
+    
+}
+
+
+@media (min-width: 320px) and (max-width: 1238px){
+    #history .container {display: block;}
+    
+}
+
+@media (min-width: 320px) and (max-width: 1238px){
+    #menu ul li 
+    {display: block;
+    justify-content: right;}
+    
+}
