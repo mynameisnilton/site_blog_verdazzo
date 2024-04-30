@@ -4,7 +4,7 @@ Este projeto consiste na criação de um blog chamado Verdazzo, desenvolvido uti
 
 ## Deploy
 
-Para acessar o blog Verdazzo, clique [aqui](#).
+Para acessar o blog Verdazzo, clique [aqui](https://site-blog-verdazzo.vercel.app/).
 
 ## Aprendizados
 
